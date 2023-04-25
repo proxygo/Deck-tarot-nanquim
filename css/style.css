@@ -13,10 +13,18 @@ body {
   background-color: #000;
 }
 
+h2 {
+  color: rgb(0, 0, 0);
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  left: 0; right: 0; top: 1em; bottom: 0;
+}
 
-h1 {
-  color: #fff;
-  font-family: 'Open Sans', sans-serif;
+h3 {
+  color: red;
+  font-family: 'Courier New', Courier, monospace;
   text-align: center;
   margin: auto;
   position: absolute;
@@ -36,6 +44,8 @@ h1 {
   user-select: none;
   transform: scale(.9);
 }
+
+
 
 img {
   width: 100%;
@@ -68,7 +78,7 @@ img {
 }
 
 .tarot-card:nth-child(3) {
-  transform: rotate(10deg);
+  transform: rotate(7deg);
 }
 
 .tarot-card:nth-child(4) {
@@ -76,16 +86,72 @@ img {
 }
 
 .tarot-card:nth-child(5) {
-  transform: rotate(-3deg);
+  transform: rotate(-2deg);
 }
 
 .tarot-card:nth-child(6) {
-  transform: rotate(-6deg);
+  transform: rotate(4deg);
 }
 
 .tarot-card:nth-child(7) {
   transform: rotate(8deg);
 }
+
+.tarot-card:nth-child(8) {
+  transform: rotate(2deg);
+}
+
+.tarot-card:nth-child(9) {
+  transform: rotate(5deg);
+}
+
+.tarot-card:nth-child(10) {
+  transform: rotate(7deg);
+}
+
+.tarot-card:nth-child(11) {
+  transform: rotate(3deg);
+}
+
+.tarot-card:nth-child(12) {
+  transform: rotate(2deg);
+}
+
+.tarot-card:nth-child(13) {
+  transform: rotate(3deg);
+}
+
+.tarot-card:nth-child(14) {
+  transform: rotate(4deg);
+}
+
+.tarot-card:nth-child(15) {
+  transform: rotate(1deg);
+}
+
+.tarot-card:nth-child(16) {
+  transform: rotate(7deg);
+}
+
+.tarot-card:nth-child(17) {
+  transform: rotate(2deg);
+}
+.tarot-card:nth-child(18) {
+  transform: rotate(6deg);
+}
+.tarot-card:nth-child(19) {
+  transform: rotate(7deg);
+}
+.tarot-card:nth-child(20) {
+  transform: rotate(2deg);
+}
+.tarot-card:nth-child(21) {
+  transform: rotate(3deg);
+}
+.tarot-card:nth-child(22) {
+  transform: rotate(5deg);
+}
+
 
 
 .top {
@@ -141,6 +207,3 @@ img {
 .twitter-btn:hover {
   background-color: #000;
 }
-
-
-
